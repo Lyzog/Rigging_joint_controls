@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38fb061-edb6-43ce-bab5-5a7b6b0c4f95" name="Changes" comment="first commit">
+    <list default="true" id="f38fb061-edb6-43ce-bab5-5a7b6b0c4f95" name="Changes" comment="created the script for creating FK Controls for selected joints in a scene in maya and structure the hierarchy when creating the controls and groups">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/joint_controls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/joint_controls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,11 +73,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1740367685063</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="created the script for creating FK Controls for selected joints in a scene in maya and structure the hierarchy when creating the controls and groups">
+      <option name="closed" value="true" />
+      <created>1741202486566</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1741202486566</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="created the script for creating FK Controls for selected joints in a scene in maya and structure the hierarchy when creating the controls and groups" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the script for creating FK Controls for selected joints in a scene in maya and structure the hierarchy when creating the controls and groups" />
   </component>
 </project>
