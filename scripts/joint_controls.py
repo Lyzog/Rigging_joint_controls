@@ -9,7 +9,7 @@ def createControls(name="FK_Controller", radius=20, controllerNormal=[1, 0, 0]):
     previousController = None
 
     for joint in selection:
-        controller = cmds.circle(nr=controllerNormal, r=radius, n=joint + "_" + name)[0]
+        controller = cmds.circle(nr=controllerNormal, r=radius, n=joint + "_" + name, ch=False)[0]
         controllerGroup = cmds.group(controller, n=joint + "_Group")
         cmds.delete(cmds.parentConstraint(joint, controllerGroup, mo=False))
         cmds.orientConstraint(controller, joint, mo=False)
